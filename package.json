@@ -1,0 +1,33 @@
+{
+  "name": "duca-next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "deploy": "vercel && vercel --prod"
+  },
+  "dependencies": {
+    "@material-ui/core": "^4.11.0",
+    "@material-ui/icons": "^4.9.1",
+    "@material-ui/lab": "^4.0.0-alpha.56",
+    "clsx": "^1.1.1",
+    "formik": "^2.2.2",
+    "next": "10.0.1",
+    "prop-types": "^15.7.2",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "sass": "^1.29.0",
+    "yup": "^0.29.3"
+  },
+  "devDependencies": {
+    "eslint": "^7.12.1",
+    "eslint-config-airbnb": "^18.2.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-jsx-a11y": "^6.4.1",
+    "eslint-plugin-react": "^7.21.5",
+    "eslint-plugin-react-hooks": "^4.2.0",
+    "prettier": "^2.1.2"
+  }
+}
